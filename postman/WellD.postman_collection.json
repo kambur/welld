@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "17410151-7320-4b7d-9da9-288341939d65",
+		"name": "WellD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3402980"
+	},
+	"item": [
+		{
+			"name": "space",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/space",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"space"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get lines",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/lines/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"lines",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add point",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"x\": 1, \"y\": 1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/point",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"point"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "space",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/space",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"space"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
